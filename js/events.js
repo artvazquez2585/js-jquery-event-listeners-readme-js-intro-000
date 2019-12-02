@@ -4,7 +4,7 @@ function getIt(){
     alert("Hey!")
   })
 };
-frameIt(){
+function frameIt(){
 $("img").on('load',function(){
   $("img")[0].className = "tasty";
 })
