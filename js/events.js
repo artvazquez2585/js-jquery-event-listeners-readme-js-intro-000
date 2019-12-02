@@ -4,13 +4,14 @@ function getIt(){
     alert("Hey!")
   })
 };
+
 function frameIt(){
 $("img").on('load',function(){
   $("img")[0].className = "tasty";
 })
 };
-$(document).ready(function(){
 
+$(document).ready(function(){
 // call functions here
 getIt();
 frameIt();
