@@ -19,6 +19,12 @@ function pressIt(){
   })
 };
 
+function submitIt(){
+  $("form").on('submit',function(){
+    
+  })
+}
+
 $(document).ready(function(){
 // call functions here
 getIt();
