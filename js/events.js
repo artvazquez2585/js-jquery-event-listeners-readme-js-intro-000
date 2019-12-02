@@ -15,7 +15,7 @@ function pressIt(){
   $("input[type='text']").on('keydown',function(key){
     if(key.which === 71){
       alert("You typed G!");
-    };
+    }
   })
 };
 
