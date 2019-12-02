@@ -12,7 +12,11 @@ $("img").on('load',function(){
 };
 
 function pressIt(){
-  $("input[type='text']").
+  $("input[type='text']").on('keydown',function(key){
+    if(key === 'g'){
+      alert("You typed G!");    
+    };
+  })
 }
 
 $(document).ready(function(){
