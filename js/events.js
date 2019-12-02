@@ -1,10 +1,12 @@
 //define functions here
 function getIt(){
   $("p:first").on('click',function(){
-    alert("hey!")
+    alert("Hey!")
   });
 }
-
+frameIt(){
+  
+};
 $(document).ready(function(){
 
 // call functions here
