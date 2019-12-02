@@ -14,6 +14,7 @@ $("img").on('load',function(){
 function pressIt(){
   $("input[type='text']").on('keydown',function(key){
     console.log(key);
+    var keyObject = key;
     if(key === 'g'){
       alert("You typed G!");
     };
