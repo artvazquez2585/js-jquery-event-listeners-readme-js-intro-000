@@ -13,7 +13,6 @@ $("img").on('load',function(){
 
 function pressIt(){
   $("input[type='text']").on('keydown',function(key){
-    console.log(key.which);
     if(key.which === 71){
       alert("You typed G!");
     };
