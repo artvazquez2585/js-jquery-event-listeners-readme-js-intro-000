@@ -5,7 +5,9 @@ function getIt(){
   })
 };
 frameIt(){
-
+$("img").on('load',function(){
+  $("img")[0].className = "tasty";
+})
 };
 $(document).ready(function(){
 
