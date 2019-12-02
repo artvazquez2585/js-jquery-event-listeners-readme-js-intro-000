@@ -5,7 +5,7 @@ function getIt(){
   });
 }
 frameIt(){
-  
+
 };
 $(document).ready(function(){
 
