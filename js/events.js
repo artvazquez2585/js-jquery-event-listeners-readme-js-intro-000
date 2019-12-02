@@ -17,7 +17,7 @@ function pressIt(){
       alert("You typed G!");
     };
   })
-}
+};
 
 $(document).ready(function(){
 // call functions here
