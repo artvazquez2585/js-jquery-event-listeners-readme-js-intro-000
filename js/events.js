@@ -11,6 +11,10 @@ $("img").on('load',function(){
 })
 };
 
+function pressIt(){
+  $("input[type='text']").
+}
+
 $(document).ready(function(){
 // call functions here
 getIt();
